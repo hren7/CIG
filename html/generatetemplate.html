@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+	    <title>Generate Invoice</title>
+        <link href="/static/css/generate.css" rel="stylesheet">
+    </head>
+    <div class="body">
+        <h1>Generate Invoice</h1>
+        <p></p>
+        <p><b>Client</b></p>
+        <form method="get" action="invoice" target="_blank">
+            %
+            <br>
+            <br>
+            <label for="hrlyrate"><b>Hourly Rate (£/h)</b></label><br>
+            <input type="number" id="hrlyrate" name="hrlyrate" min="0.1" step="any" required><br>
+            <br>
+            <br>
+            <label for="hours"><b>Hours</b></label><br>
+            <input type="number" id="hours" name="hours" min="0.1" step="any" required><br>
+            <br>
+            <br>
+            <input type="checkbox" id="save" name="save" value="True">
+            <label for="save">Save invoice to history</label><br>
+            <br>
+            <input type="submit" value="Generate">
+    </div>
+    <br>
+    <br>
+    <a href="http://127.0.0.1:8080"><center>Back</center></a>
+    </html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+    <head>
+	    <title>Invoice</title>
+        <link href="/static/css/invoice.css" rel="stylesheet">
+    </head>
+    <div class="body">
+        <div class="style1"> 
+            <br>
+            %MyCompany%
+            <br>
+            %MyAddress1%
+            <br>
+            %MyCity%
+            <br>
+            %MyCounty%
+            <br>
+            %MyPostcode%
+            <br>
+            %MyCountry%
+        </div>
+        <p>INVOICE TO:
+            <br>
+            %Client%
+            <br>
+            %ClientAddress1%
+            <br>
+            %ClientCity%
+            <br>
+            %ClientCounty%
+            <br>
+            %ClientPostcode%
+            <br>
+            %ClientCountry%
+        </p>
+        <br>
+        <br>
+        <table class="table2">
+            <tr>
+            <td>Invoice number:</td>
+            <td>
+                %InvoiceNo%
+            </td>
+            </tr>
+            <tr>
+            <td>Client ID:</td>
+            <td>
+                %ClientID%
+            </td>
+            </tr>
+            <tr>
+            <td>Invoice date:</td>
+            <td>
+                %Date%
+            </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <p>Period of Invoice: 
+            %01/MM/YYYY%
+            to
+            %DD/MM/YYYY%</p>
+        <p>
+        <table class="table1">
+            <tr class="table1">
+                <td>Service Provided</td>
+                <td>Hours</td>
+                <td>Rate</td>
+                <td>Amount</td>
+            </tr>
+            <tr class="table1">
+                <td>Consultation</td>
+                <td>
+                    %B%
+                </td>
+                <td>
+                    %C%
+                </td>
+                <td>
+                    %D%
+                </td>
+            </tr>
+        </table>
+        </p>
+        <p><b>Total amount due:
+            %Total%
+        </b></p>
+        <br>
+        <p><b>Payment is due within 30 days of the invoice date.</b></p>
+        <p>Please make payments to:</p>
+        <table class="table2">
+            <tr>
+            <td>Bank:</td>
+            <td>
+                %MyBank%
+            </td>
+            </tr>
+            <tr>
+            <td>Sort code:</td>
+            <td>
+                %SortCode%
+            </td>
+            </tr>
+            <tr>
+            <td>Account number:</td>
+            <td>
+                %AccNum%
+            </td>
+            </tr>
+            <tr>
+            <td>Account name:</td>
+            <td>
+                %AccName%
+            </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="footer">
+            %MyCompany%, registered in England and Wales, registered no. %RegNum%.
+            <br>
+            Registered office: %RegOffice%
+        </p>
+        </div>
+    </html>

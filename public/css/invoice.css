@@ -1,0 +1,33 @@
+.style1 {
+    text-align: right;
+}
+
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000
+}
+
+.table2 td {
+    padding-right: 40px;
+}
+
+.footer {
+    text-align: center;
+}
+
+p { 
+    margin-bottom: 0.25cm;
+    line-height: 140%;
+    background: transparent;
+    font-size: 16px;
+}
+
+.body {
+    height: 1123px;
+    width: 794px;
+    /* A4 sheet*/
+    margin-left: auto;
+    margin-right: auto;
+}
