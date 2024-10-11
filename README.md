@@ -15,7 +15,7 @@ The Clients page displays client data read from the company database and formats
 The Generate Invoice page allows the user to select fields such as client, hourly rate etc. and generates an invoice based on these when the user clicks the 'generate' button.
 
 ![Generate Invoice](/images/generateinvoice.png "Generate Invoice Page")
-![Example of a generated invoice](/images/invoiceexample.png "Example of a Generated Invoice")
+<img src="/images/invoiceexample.png" alt="Example of a Generated Invoice" title="Example of a Generated Invoice" width="80%"/>
 
 The user can choose to save the invoice to invoice history, and in that case, it is updated on the Invoice History page.
 
